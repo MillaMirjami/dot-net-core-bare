@@ -5,14 +5,16 @@ using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
 [Route("")]
+
+// 1. pitäisi olla public
+// 2. pitäisi periä ControllerBase
+// 3. pitäisi olla namespace
 public class Controller
 {
-
+    // Get juuri-polusta (root path)
     [HttpGet]
     public async Task<ActionResult<string>> GetGreeting() {
-        return "haloo haloo haloo"
-        + " haloo haloo haloo"
-        + " kaikki ok!";
+        return "It works!";
     }
 
     [HttpGet("/Milla")]
