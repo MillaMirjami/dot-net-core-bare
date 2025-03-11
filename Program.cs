@@ -10,8 +10,9 @@ public class Program {
         // builder.Build() creates a web app
         var webApi = builder.Build();
 
-        // after that we can use builder to create the web api
-
         // once we have the web api, we can start it
+        webApi.Run();
+
+        Console.Write("Ending...");
     }
 }
