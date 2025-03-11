@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "0DC+gTl46vtIJYgRTZAflPVf8bA/eZ5hbKGZcIrEO2w=",
+  "Source": "BareApi",
+  "BasePath": "_content/BareApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
